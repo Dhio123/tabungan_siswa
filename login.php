@@ -23,7 +23,7 @@
             <input placeholder="Password" type="password" name="password">
             <button type="submit">Login</button>
         </form>
-        <p style="width: 400px; text-align: justify;">
+        <p style="width: 350px; text-align: justify;">
             <strong>Tabungan Siswa:</strong> Pelajari Menabung dengan Cara Menyenangkan! <strong>Platform
                 inovatif</strong> untuk
             anak-anak belajar
