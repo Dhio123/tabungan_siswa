@@ -40,7 +40,7 @@ body {
 }
 
 .title-form h1 {
-  font-size: 36px;
+  font-size: 32px;
 }
 
 h3 {
@@ -83,17 +83,16 @@ button:hover {
 }
 
 .image img {
-  width: 300px;
+  width: 250px;
 }
 
 .footer-form {
   position: fixed;
   bottom: 0;
-  padding-top: 10px;
+  padding: 10px;
   width: 400px;
   font-size: 12px;
   text-align: center;
-  padding-bottom: 30px;
   border-top: 1px solid black;
   color: rgb(47, 128, 237);
 }
