@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 12px;
 }
 
 body {
@@ -18,7 +19,7 @@ body {
   background: rgb(255, 234, 0);
   width: auto;
   border: 1px solid;
-  gap: 30px;
+  gap: 25px;
   height: 100vh;
 }
 
@@ -39,11 +40,11 @@ body {
 }
 
 .title-form h1 {
-  font-size: 42px;
+  font-size: 36px;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 20px;
   color: rgb(47, 128, 237);
   font-weight: 600;
   line-height: 24px;
@@ -57,7 +58,7 @@ input {
   border: 1px solid #acacac;
   outline: none;
   padding: 12px 20px;
-  font-size: 16px;
+  font-size: 12px;
   border-radius: 8px;
   width: 100%;
 }
@@ -73,7 +74,7 @@ button {
   border-radius: 8px;
   border: 1px solid black;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 12px;
   font-family: "Poppins", serif;
 }
 
@@ -83,7 +84,6 @@ button:hover {
 
 .image img {
   width: 300px;
-  margin-top: -50px;
 }
 
 .footer-form {
@@ -91,6 +91,7 @@ button:hover {
   bottom: 0;
   padding-top: 10px;
   width: 400px;
+  font-size: 12px;
   text-align: center;
   padding-bottom: 30px;
   border-top: 1px solid black;
