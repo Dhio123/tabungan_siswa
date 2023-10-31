@@ -1,108 +1,95 @@
-body{   
-    min-height: 97vh;
-    font-family: 'Times New Roman', Times, serif;
+body {
+  min-height: 97vh;
+  font-family: "Times New Roman", Times, serif;
 }
-.container{
-    width: 70%;    
-    margin: auto;
-    border: 1px solid rgb(255, 234, 0);    
+.container {
+  width: 70%;
+  margin: auto;
+  border: 1px solid rgb(255, 234, 0);
 }
-.container nav {    
-    background-color: rgb(255, 234, 0);      
-    height: 50px;
+.container nav {
+  background-color: rgb(255, 234, 0);
+  height: 50px;
 }
-.full-nav{
-    position: relative;     
-    width: 100%;
-    margin: auto;       
+.full-nav {
+  position: relative;
+  width: 100%;
+  margin: auto;
 }
-.left-nav-content{ 
-    position: absolute;        
-    display: flex;
-    margin-right: 0px;
-    padding-left: 10px;   
+.left-nav-content {
+  position: absolute;
+  display: flex;
+  margin-right: 0px;
+  padding-left: 10px;
 }
-.right-nav-content{      
-    right: 0px;
-    margin-right: 20px;    
-    position: absolute;
-    padding-right: 0px;
+.right-nav-content {
+  right: 0px;
+  margin-right: 20px;
+  position: absolute;
+  padding-right: 0px;
 }
-.nav-ins a{
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-weight: 400;
+.nav-ins a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: 400;
 }
-.nav-ins a:hover{    
-    color: rgb(255, 255, 255);
-    font-weight: 400;
+.nav-ins a:hover {
+  color: rgb(255, 255, 255);
+  font-weight: 400;
 }
-.nav-ins p{
-    text-decoration: none;
-    color: rgb(255, 0, 0);
-    margin: auto;   
+.nav-ins p {
+  text-decoration: none;
+  color: rgb(255, 0, 0);
+  margin: auto;
 }
-.content{
-    background-color: rgb(255, 255, 255);      
+.content {
+  background-color: rgb(255, 255, 255);
 
-    padding: 2px;
-    min-height: 560px;
+  padding: 2px;
+  min-height: 560px;
 }
-.tbl-ins{    
-    border: 1px solid black;
-    margin: 4px;
+.tbl-ins {
+  border: 1px solid black;
+  margin: 4px;
 }
-.tbl-ins tr td{    
-    border: 1px solid rgb(83, 79, 79);
-    margin: 4px;
-    padding: 5px 10px;    
+.tbl-ins tr td {
+  border: 1px solid rgb(83, 79, 79);
+  margin: 4px;
+  padding: 5px 10px;
 }
 .nav-ins ul {
-    display: flex;  
-    flex-wrap: wrap;
-    padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
 }
 .nav-ins li {
-    list-style: none;        
-    text-align: center;
-    padding-right: 10px;
+  list-style: none;
+  text-align: center;
+  padding-right: 10px;
 }
 .form-ins {
-    padding: 4px;    
+  padding: 4px;
 }
 .form-ins input {
-    padding: 5px;
-    margin: 2px;
+  padding: 5px;
+  margin: 2px;
 }
 .form-ins select {
-    padding: 5px !important;
-    margin: 2px;
+  padding: 5px !important;
+  margin: 2px;
 }
-.form-login{
-    background-color: rgb(255, 234, 0);      
-    width: 280px;
-    padding: 40px 535px;
-    margin: 10px ;  
-    background-repeat: no-repeat;
-    background-position:  100%;
-    background-size: 100%; 
+.form-login {
+  background-color: rgb(255, 234, 0);
+  width: 280px;
+  padding: 40px 535px;
+  margin: 10px;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: 100%;
 }
-.footer-ins{    
-    text-align: center;
-    height: 20px;
-    background-color: rgb(255, 234, 0); 
-    bottom:0px;
-}
-
-.container-login {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: rgb(255, 234, 0); 
-    height: 97vh;
-}
-
-.image img{
-    width: 300px;
+.footer-ins {
+  text-align: center;
+  height: 20px;
+  background-color: rgb(255, 234, 0);
+  bottom: 0px;
 }

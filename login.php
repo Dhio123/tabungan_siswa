@@ -5,40 +5,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/instemplate.css">
+    <link rel="stylesheet" href="./css/login.css">
     <title>Login - Tabungan Siswa</title>
 </head>
 
 <body>
     <div class="container-login">
-    <div class="image">
-        <img src="gambar/celengan_ayam.png" alt="">
-    </div>
-    <p style="width: 400px; text-align: center; margin-top: -10px;">Tabungan Siswa</p>
-
-    <h1>Selamat Datang</h1>
-    <form style=" margin-top: -20px;" class="form-ins form-login" action="./proses/cek_login.php" method="POST">
-        <table>
-            <tr>
-                <td>Username</td>
-                <td>
-                    <input placeholder="username" type="text" name="username">
-                </td>
-            </tr>
-            <tr>
-                <td>Password</td>
-                <td><input placeholder="password" type="password" name="password"></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>
-                    <button type="submit">Login</button>
-                </td>
-            </tr>
-        </table>
-    </form>
-    <p style="width: 400px; text-align: center; margin-top: -10px;">Tabungan Untuk Masa depan Yang Cerah</p>
-
+        <div class="image">
+            <img src="gambar/celengan_ayam.png" alt="">
+        </div>
+        <div class="title-form">
+            <h3>Tabungan Siswa</h3>
+            <h1>Selamat Datang</h1>
+        </div>
+        <form class="form-container" action="./proses/cek_login.php" method="POST">
+            <input placeholder="Username" type="text" name="username">
+            <input placeholder="Password" type="password" name="password">
+            <button type="submit">Login</button>
+        </form>
+        <p style="width: 400px; text-align: justify;">
+            <strong>Tabungan Siswa:</strong> Pelajari Menabung dengan Cara Menyenangkan! <strong>Platform
+                inovatif</strong> untuk
+            anak-anak belajar
+            keuangan. Ajarkan mereka nilai penting menabung sejak dini. Bergabunglah sekarang untuk memberi bekal
+            <strong>finansial</strong> masa depan yang kokoh.
+        </p>
+        <div class="footer-form">
+            <p>Tabungan Untuk Masa depan Yang Cerah</p>
+        </div>
     </div>
 </body>
 
