@@ -4,8 +4,8 @@ include './layout/header.php';
 include 'koneksi.php';
 
 $no = 1;
-$query = mysqli_query($kon, 'SELECT * FROM siswa');
 
+$query = mysqli_query($kon, 'SELECT * FROM siswa');
 ?>
 
 <div class="container">
