@@ -5,6 +5,7 @@ if ($_SESSION['login'] != true) {
 }
 
 $route = $_SERVER['REQUEST_URI'];
+$route = trim(str_replace('/tabungansiswa','',$route)); 
 
 ?>
  <!DOCTYPE html>
